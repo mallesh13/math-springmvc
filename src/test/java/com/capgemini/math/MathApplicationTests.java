@@ -33,7 +33,7 @@ public class MathApplicationTests {
 	}
 	@Test
 	public void testAdditionOfOnePositiveOneNegativeIntegers() {	
-		assertEquals(-10, mcontroller.addition(10, -20));
+		assertEquals(10, mcontroller.addition(10, -20));
 	}
 	
 }
