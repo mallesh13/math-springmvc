@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/math")
 public class MathController {
-
+	//some content added
 	@PostMapping("/add")
 	public int addition(int a,int b) {
 		return a+b;
